@@ -25,4 +25,4 @@ sed -i '6i uci set system.@system[0].hostname=VNbird' package/lean/default-setti
 sed -i "42i echo 'iptables -t nat -I POSTROUTING -o eth0.1 -j MASQUERADE' >> /etc/firewall.user" package/lean/default-settings/files/zzz-default-settings
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 # Modify default theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
