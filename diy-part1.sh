@@ -16,8 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/thangcualo/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/thangcualo/small.git package/small
 git clone https://github.com/open-mesh-mirror/batman-adv.git package/batman-adv
 # Add theme
 # rm -rf feeds/luci/applications/luci-app-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
